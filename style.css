@@ -1,96 +1,84 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /* body {
-    color: #4b4b4b;
-    font-family: "Comfortaa", sans-serif;
-    line-height: 1.7em;
-    font-size: 18px;
-  } */
-  /* WhatsApp Float  */
-
-/* WhatsApp Float Starts Here  */
-
-.float {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 65px;
-	right: 30px;
-	background-color: #8f8f8f;
-	color: #FFF;
-	border-radius: 50px;
-	text-align: center;
-	font-size: 30px;
-	box-shadow: 2px 2px 3px #5e5e5e;
-	z-index: 100;
-  }
-  .ff {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	color: #fff;
-	
-  }
+/* website: https://www.carsales.com.au/research/showroom/ */
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
   
-  .my-float {
-	margin-top: 17px;
-  }
+
+}
+body{
+  background: none;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+header{
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
   
-  .float-fb{
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 165px;
-	right: 30px;
-	background-color: #4b4b4b;
-   
-	border-radius: 50px;
-	text-align: center;
-	font-size: 30px;
-	box-shadow: 2px 2px 3px #999;
-	z-index: 100; 
-	
-  }
   
-/* WhatsApp Float Ends Here    */
-@media screen and (max-width: 1160px) {
- .navlogo {
-    /* height:30px ; */
-  }
-  .ime-pay{
-    font-size:10px ;
-  }
-  #navbar-default{
-    font-size:12px;
-  }
-  .join-now_img{
-    height: 22px;
-  }
-  .mail_img{
-    height: 22px;
-  }
 }
-@media screen and (min-width: 1900px){
-.desktop-section{
- padding-right: 280px;
- padding-left: 180px;
+.Logo{
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: -15px;
 }
-.footer{
-  padding-left: 17%;
+.homeimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
-.footer-icon{
-  padding-right: 90px ;
+.bi-bell{
+  font-size: 20px;
+  font-weight: 600;
+}
+.carform{
+  width: 1300px;
+  height: 360px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 530px;
+  left: 11%;
+
+}
+.text-lighter{
+font-weight: 200;
+}
+.dropdown-menu{
+  height: 150px;
+  overflow: scroll;
+  width: 265px;
+}
+.headerButton{
+  border-bottom: 2px solid transparent;
+  transition: margin-bottom  ease, border-bottom ease;
+  .textB{
+    color: black;
 }
 }
+.headerButton:hover{
+  margin-bottom: -28px;
+  border-bottom: 3px solid red;
+  .textB{
+    color: red;
+}
+ 
+
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 29px;
+  height: auto;
+  width: auto;
   
+}
